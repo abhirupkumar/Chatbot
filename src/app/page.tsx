@@ -10,7 +10,7 @@ export default function ChatPage() {
       <div className="sticky top-0 z-10 flex h-14 items-center justify-between">
         <div className="flex items-center gap-4">
           <Image priority src="/logo.png" width={40} height={40} alt="Logo" />
-          <div className="text-lg font-semibold">Hello, Let's talk!</div>
+          <div className="text-lg font-semibold">Hello, User!</div>
         </div>
         <div className="flex gap-1">
           <DarkModeToggle />
