@@ -120,8 +120,8 @@ export function Chat() {
 
 function getModelName(model: ModelName) {
   switch (model) {
-    case "llama-3.1-70b-versatile":
-      return "Llama 3.1 (70B)";
+    case "llama-3.3-70b-versatile":
+      return "Llama 3.3 (70B)";
     default:
       return "Llama 3.1";
   }

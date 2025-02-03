@@ -11,7 +11,7 @@ const groq = createGroq({
 export async function POST(req: Request) {
     const {
         messages,
-        model = "llama-3.1-70b-versatile",
+        model = "llama-3.3-70b-versatile",
         temperature = 0.5,
     } = await req.json();
 
